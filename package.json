@@ -1,0 +1,24 @@
+{
+  "name": "duodecimo",
+  "version": "0.0.0",
+  "description": "A lightweight book publishing tool.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/greatislander/duodecimo.git"
+  },
+  "keywords": [
+    "book",
+    "duodecimo",
+    "epub",
+    "publishing"
+  ],
+  "author": "Ned Zimmerman <ned@bight.dev>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/greatislander/duodecimo/issues"
+  },
+  "homepage": "https://github.com/greatislander/duodecimo#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
