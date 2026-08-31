@@ -4,12 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>{{ config('app.name', 'Duodecimo') }}</title>
+        <title>{{ __('Books') }} | {{ config('app.name', 'Duodecimo') }}</title>
 
         @fonts
     </head>
     <body>
-        <h1>{{ config('app.name', 'Duodecimo') }}</h1>
-
+        <h1>{{ __('Books') }}</h1>
+        @foreach($books as $book)
+            <p><a href="{{ route('books.show', $book) }}">{{ $book->title }}</a></p>
+        @endforeach
     </body>
 </html>

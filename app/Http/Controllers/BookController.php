@@ -7,13 +7,18 @@ use Illuminate\Http\Request;
 
 class BookController
 {
-    public function index() {}
+    public function index() {
+        return view('books.index', ['books' => Book::all()]);
+    }
 
-    public function create() {}
+    public function create() {
+    }
 
     public function store(Request $request) {}
 
-    public function show(Book $book) {}
+    public function show(Book $book) {
+        return view('books.show', ['book' => $book]);
+    }
 
     public function edit(Book $book) {}
 
