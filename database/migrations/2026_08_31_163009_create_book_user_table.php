@@ -8,8 +8,10 @@ return new class extends Migration
 {
     public function up(): void
     {
-        Schema::create('chapters', function (Blueprint $table) {
+        Schema::create('book_user', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('book_id')->constrained()->unique();
+            $table->foreignId('user_id')->constrained()->unique();
             $table->timestamps();
         });
     }
