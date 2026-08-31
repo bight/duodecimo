@@ -8,7 +8,8 @@
     "require": {
         "php": "^8.4",
         "laravel/framework": "^13.7",
-        "laravel/tinker": "^3.0"
+        "laravel/tinker": "^3.0",
+        "spatie/laravel-sluggable": "^4.0"
     },
     "require-dev": {
         "albertoarena/laravel-truss": "^1.8",

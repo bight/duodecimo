@@ -3,7 +3,6 @@
 namespace App\Models;
 
 use App\Enums\ContentType;
-use App\Models\Book;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -21,7 +20,7 @@ class Content extends Model
         ];
     }
 
-    public function book(): Book
+    public function book(): BelongsTo
     {
         return $this->BelongsTo(Book::class);
     }

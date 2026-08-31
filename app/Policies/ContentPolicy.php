@@ -2,11 +2,11 @@
 
 namespace App\Policies;
 
-use App\Models\Chapter;
+use App\Models\Content;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-class ChapterPolicy
+class ContentPolicy
 {
     use HandlesAuthorization;
 
@@ -15,7 +15,7 @@ class ChapterPolicy
         //
     }
 
-    public function view(User $user, Chapter $chapter): bool
+    public function view(User $user, Content $content): bool
     {
         //
     }
@@ -25,22 +25,22 @@ class ChapterPolicy
         //
     }
 
-    public function update(User $user, Chapter $chapter): bool
+    public function update(User $user, Content $content): bool
     {
         //
     }
 
-    public function delete(User $user, Chapter $chapter): bool
+    public function delete(User $user, Content $content): bool
     {
         //
     }
 
-    public function restore(User $user, Chapter $chapter): bool
+    public function restore(User $user, Content $content): bool
     {
         //
     }
 
-    public function forceDelete(User $user, Chapter $chapter): bool
+    public function forceDelete(User $user, Content $content): bool
     {
         //
     }

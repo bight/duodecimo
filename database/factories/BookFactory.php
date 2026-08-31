@@ -9,7 +9,7 @@ class BookFactory extends Factory
     public function definition(): array
     {
         return [
-            'title' => 'Moby Dick: Or, the Whale'
+            'title' => 'Moby Dick: Or, the Whale',
         ];
     }
 }

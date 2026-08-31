@@ -10,6 +10,6 @@
     </head>
     <body>
         <h1>{{ config('app.name', 'Duodecimo') }}</h1>
-
+        <a href="{{ route('books.index') }}">View books</a>
     </body>
 </html>
