@@ -10,6 +10,7 @@ class BookFactory extends Factory
     {
         return [
             'title' => 'Moby Dick: Or, the Whale',
+            'slug' => 'moby-dick',
         ];
     }
 }

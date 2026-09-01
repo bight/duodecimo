@@ -14,6 +14,7 @@ return new class extends Migration
             $table->integer('index');
             $table->enum('type', ContentType::cases());
             $table->string('title');
+            $table->string('slug');
             $table->longText('body');
             $table->foreignId('book_id')->constrained();
             $table->timestamps();
