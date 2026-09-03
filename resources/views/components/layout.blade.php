@@ -7,9 +7,13 @@
         <title>{{ $title ?? config('app.name', 'Duodecimo') }}</title>
 
         @fonts
+        @vite('resources/js/app.js')
+
     </head>
     <body>
-        <h1>{{ $title ?? config('app.name', 'Duodecimo') }}</h1>
-        {{ $slot }}
+        <main class="region wrapper prose flow">
+            <h1>{{ $title ?? config('app.name', 'Duodecimo') }}</h1>
+            {{ $slot }}
+        </main>
     </body>
 </html>
