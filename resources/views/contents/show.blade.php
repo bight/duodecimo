@@ -3,5 +3,5 @@
         {{ $content->title }}
     </x-slot>
 
-    <x-markdown>{{ $content->body }}</x-markdown>
+    {!! $content->body !!}
 </x-layout>
