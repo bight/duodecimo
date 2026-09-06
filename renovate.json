@@ -1,19 +1,9 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": [
-		"config:recommended"
-	],
-	"labels": [
-		"dependencies"
-	],
-	"schedule": [
-		"* * * * 1"
-	],
-	"enabledManagers": [
-		"composer",
-		"github-actions",
-		"npm"
-  ],
+	"extends": ["config:recommended"],
+	"labels": ["dependencies"],
+	"schedule": ["* * * * 1"],
+	"enabledManagers": ["composer", "github-actions", "npm"],
 	"lockFileMaintenance": {
 		"enabled": true,
 		"automerge": true
@@ -21,12 +11,7 @@
 	"packageRules": [
 		{
 			"description": "Group minor updates for backend and frontend packages into single PR",
-			"matchUpdateTypes": [
-				"minor",
-				"patch",
-				"pin",
-				"digest"
-			],
+			"matchUpdateTypes": ["minor", "patch", "pin", "digest"],
 			"minimumReleaseAge": "2 days",
 			"groupName": "dependencies (minor)",
 			"groupSlug": "minor-updates",
@@ -35,23 +20,17 @@
 		{
 			"groupName": "Laravel packages",
 			"groupSlug": "laravel",
-			"matchPackageNames": [
-				"laravel/**"
-			]
+			"matchPackageNames": ["laravel/**"]
 		},
 		{
 			"groupName": "Pest packages",
 			"groupSlug": "pest",
-			"matchPackageNames": [
-				"pestphp/**"
-			]
+			"matchPackageNames": ["pestphp/**"]
 		},
 		{
 			"description": "Use dedicated PRs for major updates",
 			"minimumReleaseAge": "2 days",
-			"matchUpdateTypes": [
-				"major"
-			],
+			"matchUpdateTypes": ["major"],
 			"groupName": null
 		}
 	]
