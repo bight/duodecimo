@@ -6114,16 +6114,16 @@
     "packages-dev": [
         {
             "name": "albertoarena/laravel-truss",
-            "version": "v1.10.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/albertoarena/laravel-truss.git",
-                "reference": "90b1408425e4712581ff4fbaee2b3a324ced6031"
+                "reference": "a977cb3d81afed5193a45383d24991044d86c9fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/albertoarena/laravel-truss/zipball/90b1408425e4712581ff4fbaee2b3a324ced6031",
-                "reference": "90b1408425e4712581ff4fbaee2b3a324ced6031",
+                "url": "https://api.github.com/repos/albertoarena/laravel-truss/zipball/a977cb3d81afed5193a45383d24991044d86c9fd",
+                "reference": "a977cb3d81afed5193a45383d24991044d86c9fd",
                 "shasum": ""
             },
             "require": {
@@ -6191,7 +6191,7 @@
                     "type": "ko-fi"
                 }
             ],
-            "time": "2026-08-27T08:47:58+00:00"
+            "time": "2026-09-13T06:36:21+00:00"
         },
         {
             "name": "brianium/paratest",
