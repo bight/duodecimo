@@ -6114,16 +6114,16 @@
     "packages-dev": [
         {
             "name": "albertoarena/laravel-truss",
-            "version": "v1.10.0",
+            "version": "v1.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/albertoarena/laravel-truss.git",
-                "reference": "90b1408425e4712581ff4fbaee2b3a324ced6031"
+                "reference": "7171bd178546eb64f69931db9048c3428ac5e3f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/albertoarena/laravel-truss/zipball/90b1408425e4712581ff4fbaee2b3a324ced6031",
-                "reference": "90b1408425e4712581ff4fbaee2b3a324ced6031",
+                "url": "https://api.github.com/repos/albertoarena/laravel-truss/zipball/7171bd178546eb64f69931db9048c3428ac5e3f7",
+                "reference": "7171bd178546eb64f69931db9048c3428ac5e3f7",
                 "shasum": ""
             },
             "require": {
@@ -6133,7 +6133,7 @@
                 "spatie/laravel-package-tools": "^1.16"
             },
             "require-dev": {
-                "laravel/mcp": "^0.9",
+                "laravel/mcp": "^1.0",
                 "laravel/pint": "^1.18",
                 "orchestra/testbench": "^10.0 || ^11.0",
                 "pestphp/pest": "^3.5"
@@ -6191,7 +6191,7 @@
                     "type": "ko-fi"
                 }
             ],
-            "time": "2026-08-27T08:47:58+00:00"
+            "time": "2026-09-25T14:31:08+00:00"
         },
         {
             "name": "brianium/paratest",
