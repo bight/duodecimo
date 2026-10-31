@@ -3261,16 +3261,16 @@
         },
         {
             "name": "spatie/laravel-sluggable",
-            "version": "4.0.3",
+            "version": "4.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-sluggable.git",
-                "reference": "572933c61b70103be4b95fe7674070bb60243254"
+                "reference": "8bdb6cc508459b22328f2743fda18883957da0a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-sluggable/zipball/572933c61b70103be4b95fe7674070bb60243254",
-                "reference": "572933c61b70103be4b95fe7674070bb60243254",
+                "url": "https://api.github.com/repos/spatie/laravel-sluggable/zipball/8bdb6cc508459b22328f2743fda18883957da0a1",
+                "reference": "8bdb6cc508459b22328f2743fda18883957da0a1",
                 "shasum": ""
             },
             "require": {
@@ -3327,7 +3327,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-sluggable/issues",
-                "source": "https://github.com/spatie/laravel-sluggable/tree/4.0.3"
+                "source": "https://github.com/spatie/laravel-sluggable/tree/4.0.6"
             },
             "funding": [
                 {
@@ -3335,7 +3335,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-07-28T13:16:49+00:00"
+            "time": "2026-10-27T14:24:52+00:00",
+            "published-time": "2026-10-27T14:26:29+00:00"
         },
         {
             "name": "symfony/clock",
@@ -6114,16 +6115,16 @@
     "packages-dev": [
         {
             "name": "albertoarena/laravel-truss",
-            "version": "v1.10.0",
+            "version": "v1.15.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/albertoarena/laravel-truss.git",
-                "reference": "90b1408425e4712581ff4fbaee2b3a324ced6031"
+                "reference": "fb320c3c07401d82063339ecc84fbbfc4d9293d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/albertoarena/laravel-truss/zipball/90b1408425e4712581ff4fbaee2b3a324ced6031",
-                "reference": "90b1408425e4712581ff4fbaee2b3a324ced6031",
+                "url": "https://api.github.com/repos/albertoarena/laravel-truss/zipball/fb320c3c07401d82063339ecc84fbbfc4d9293d2",
+                "reference": "fb320c3c07401d82063339ecc84fbbfc4d9293d2",
                 "shasum": ""
             },
             "require": {
@@ -6133,10 +6134,11 @@
                 "spatie/laravel-package-tools": "^1.16"
             },
             "require-dev": {
-                "laravel/mcp": "^0.9",
+                "laravel/mcp": "^1.0",
                 "laravel/pint": "^1.18",
                 "orchestra/testbench": "^10.0 || ^11.0",
-                "pestphp/pest": "^3.5"
+                "pestphp/pest": "^3.5",
+                "symfony/console": "^7.0 || ^8.0"
             },
             "suggest": {
                 "laravel/mcp": "Enables the optional read-only, structure-only Truss MCP server (Truss as AI context). Opt in with `composer require laravel/mcp`. Needs Laravel >= 12.41.1 or 13."
@@ -6191,7 +6193,8 @@
                     "type": "ko-fi"
                 }
             ],
-            "time": "2026-08-27T08:47:58+00:00"
+            "time": "2026-10-28T10:14:48+00:00",
+            "published-time": "2026-10-28T10:14:57+00:00"
         },
         {
             "name": "brianium/paratest",
@@ -9560,7 +9563,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-08-26T09:13:25+00:00"
+            "time": "2026-08-26T09:13:25+00:00",
+            "published-time": "2026-08-26T09:16:51+00:00"
         },
         {
             "name": "spatie/laravel-stubs",
@@ -9864,5 +9868,5 @@
         "php": "^8.4"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.11.0"
 }
